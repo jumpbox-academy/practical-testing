@@ -15,5 +15,5 @@ func main() {
 func Server(w http.ResponseWriter, r *http.Request) {
 	fmt.Println(r.Proto, r.Method, r.URL)
 
-    fmt.Fprintf(w, "Hello, %s! Jumpbox", r.URL.Path[1:])
+    fmt.Fprintf(w, "Hello World, Say Hi! Jumpbox")
 }
